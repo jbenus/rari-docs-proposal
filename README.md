@@ -24,4 +24,4 @@ const lens = new Web3.eth.Contract(FUSE_POOL_LENS_ABI, 0xABCD...);
 
 const usrs = await lens.methods.getPoolUsersWithData(0xEFGH..., 101010101010101010);
 ```
-(Example of currrent documentation for fuse from the )
+[(Example of currrent documentation for fuse from the rari docs)](Screen%20Shot%202021-06-17%20at%205.43.53%20PM.png)
