@@ -8,7 +8,7 @@ Gets users and their data in a fuse pool under a given account [health](docs.rar
 getPoolUsersWithData(address Comptroller, uint256 maxHealth) returns (tuple[], uint256, uint256)
 ```
 `Comptroller`: Pool to parse <br />
-`maxHealth`: maximum account health to parse for <br />
+`maxHealth`: Maximum account health to parse for <br />
 `RETURN`: [ [FusePoolUser[]](docs.rari.capital/fuse#FusePoolUser), [closeFactor](docs.rari.capital/fuse#FusePoolUser), [liquidationIncentive](docs.rari.capital/fuse#FusePoolUser) ] <br />
 `(FYI: return values will link to their definitions in docs. All return values will be documented at the top as they are complex and repeated often in the lens functions)`
 
