@@ -10,7 +10,7 @@ getPoolUsersWithData(address Comptroller, uint256 maxHealth) returns (tuple[], u
 - `Comptroller`: Pool to parse <br />
 - `maxHealth`: Maximum account health to parse for <br />
 - `RETURN`: [ [FusePoolUser[]](docs.rari.capital/fuse#FusePoolUser), [closeFactor](docs.rari.capital/fuse#FusePoolUser), [liquidationIncentive](docs.rari.capital/fuse#FusePoolUser) ] <br />
-`(FYI: return values will link to their definitions in docs. All return values will be documented at the top as they are complex and repeated often in the lens functions)`
+`(FYI: return values will link to their definitions in docs. All return values will be documented at the top as some are complex and many are repeated often in the functions)`
 
 #### Solidity
 ```js
